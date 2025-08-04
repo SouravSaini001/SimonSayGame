@@ -4,7 +4,7 @@ A fun and interactive memory game built with HTML, CSS, and JavaScript. Test you
 
 ## 🔗 Live Demo
 
-👉 [Play the Game](https://github.com/SouravSaini001/SimonSayGame.git)
+👉 [Play the Game](https://souravsaini001.github.io/SimonSayGame/)
 
 *(Replace with your actual GitHub Pages link)*
 
