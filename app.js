@@ -78,7 +78,9 @@ function checkResult(idx) {
         audio.play();
         let body = document.querySelector("body");
         body.style.backgroundColor = "red";
-        gameOver();
+        setTimeout(() => {
+            gameOver();
+        },2000)
     }
 }
 
