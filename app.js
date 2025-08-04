@@ -7,13 +7,19 @@ let score = 0;
 let h2 = document.querySelector("h2");
 let btns = ["red", "green", "yellow", "blue"];
 
-document.addEventListener("keypress", function () {
-    if (started == false) {
+function startGame() {
+    if (!started) {
         console.log("Game Started.");
         started = true;
         levelUp();
     }
-});
+}
+
+// Start on keypress (for desktop/laptop)
+document.addEventListener("keypress", startGame);
+
+// Start on click/tap anywhere (for mobile/tablet)
+document.addEventListener("click", startGame);
 
 function btnFlast(btn) {
     // Get color name from button id
