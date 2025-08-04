@@ -7,6 +7,10 @@ let score = 0;
 let h2 = document.querySelector("h2");
 let btns = ["red", "green", "yellow", "blue"];
 
+let name = prompt("Enter your name here : ");
+let h1Name = document.querySelector("#name");
+h1Name.innerText = ` Hello ${name} Lets play`;
+
 function startGame() {
     if (!started) {
         console.log("Game Started.");
