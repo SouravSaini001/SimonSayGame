@@ -6,7 +6,6 @@ A fun and interactive memory game built with HTML, CSS, and JavaScript. Test you
 
 👉 [Play the Game](https://souravsaini001.github.io/SimonSayGame/)
 
-*(Replace with your actual GitHub Pages link)*
 
 ---
 
