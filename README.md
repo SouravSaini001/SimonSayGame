@@ -12,7 +12,7 @@ A fun and interactive memory game built with HTML, CSS, and JavaScript. Test you
 
 ## 📸 Screenshot
 
-![Simon Game Screenshot](./screenshot.png)
+![Simon Game Screenshot](./image.png)
 
 ---
 
