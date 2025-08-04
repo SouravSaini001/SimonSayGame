@@ -48,8 +48,8 @@ h2 {
 }
 
 .btn {
-    height: 150px;
-    width: 150px;
+    height: 37.5%;
+    width: 37.5%;
     border: 8px solid black;
     border-radius: 1rem;
     
@@ -78,3 +78,14 @@ h2 {
 .flash {
     background-color: white;
 }
+
+
+@media (max-width: 450px) {
+    .btn-container {
+        width: 300px;
+        height: 300px;
+    }
+
+    
+}
+
