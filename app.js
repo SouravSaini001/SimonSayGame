@@ -4,7 +4,7 @@ let userSeq = [];
 let started = false;
 let level = 0;
 let score = 0;
-let h2 = document.querySelector("h2");
+let p = document.querySelector("p");
 let btns = ["red", "green", "yellow", "blue"];
 
 let name = prompt("Enter your name here : ");
@@ -47,7 +47,7 @@ function levelUp() {
     userSeq = [];
     level++;
     score++;
-    h2.innerText = `Level ${level}`;
+    p.innerText = `Level ${level}`;
     // Selecting Random Button to flash.. 
     let randIdx = Math.floor(Math.random() * 4);
     let randColor = btns[randIdx];
@@ -76,7 +76,7 @@ function checkResult(idx) {
             setTimeout(levelUp, 1000);
         }
     } else {
-        h2.innerHTML = `<h2>Game Over! Your score was ${score} <br>  Press any key to start.<h2>`;
+        p.innerHTML = `<p>Game Over! Your score was ${score} <br>  Press any key to start.<p>`;
         // Create and play the .wav audio
         let audio = new Audio(`sounds/gameover.mp3`);
         audio.play();
